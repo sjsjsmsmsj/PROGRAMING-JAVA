@@ -1,9 +1,13 @@
 
+import java.util.Scanner;
+
 import data.Student;
-public class ArrayObject {
+public class ArrayObject { 
+    private static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        playWithStudentObject();
-        sortStudents();
+        // playWithStudentObject();
+        // sortStudents();
+        inputStudentList();
     }
     public static void playWithStudentObject() {
         Student arr[] = new Student[3]; // I need ? variable objection // arr. sổ ra length
@@ -49,5 +53,46 @@ public class ArrayObject {
             arr[i].showProfile();
             System.out.println();
         }
+    }
+    /**
+     * 
+     */
+    public static void inputStudentList() {
+        
+        String id, name;
+        int yob, count;
+        double gpa;
+        System.out.println("How many students do you want to input ?");
+        count = Integer.parseInt(sc.nextLine());
+        Student[] arr = new Student[count];
+        for(int i = 0; i < count; i ++) {
+            System.out.println("Input student " + (i + 1) + "/" + count);
+            System.out.print("Input id: ");
+            id = sc.nextLine();
+            System.out.print("Input name: ");
+            name = sc.nextLine();
+            while(1 > 0) {
+                try {
+                    System.out.print("Input yob: ");
+                    yob = Integer.parseInt(sc.nextLine());
+                    break;
+                } catch (Exception e) {
+                    System.out.println("Do you know integer ???");
+                }
+            }
+            while(1 > 0) {
+                try {
+                    System.out.print("Input gpa: ");
+                    gpa = Double.parseDouble(sc.nextLine());
+                    break;
+                } catch (Exception e) {
+                    System.out.println("Do you know double ???");
+                }
+            }
+            arr[i] = new Student(id, name, yob, gpa);
+        }
+        for (Student x : arr) {
+                x.showProfile();
+            }
     }
 }

@@ -35,6 +35,6 @@ public class Student {
         this.gpa = gpa;
     }
     public void showProfile() {
-        System.out.printf("|Student|%-10s|%-15s|%4d|%5f|", id, name, yob, gpa);
+        System.out.printf("|Student|%-10s|%-20s|%4d|%5f|\n", id, name, yob, gpa);
 }
 }
