@@ -7,5 +7,7 @@
   <li>OBJECT</li>
   <li>ARRAY PRIMITIVE</li>
   <li>ARRAY OBJECTION</li>
+  <li>Inheritance</li>
+  <li>Abstract Class</li>
 </ol>
 <h2>THANKS YOU READ CODE OF ME</h2>
