@@ -23,14 +23,14 @@
  <li> - is only correct do of it specified designed. </li>
     </ol>
   <h2>INHERITANCE</h2>
-    <ol>
+  <ol>
   <li>- Reuse again code don't need code again, even must need copy & paste.</li>
   <li>- Help acceleration when write code, when codes the best in the past.</li>
-    </ol>
+  </ol>
   <h2>POLYMORPHISM</h2>
-    <ol>
+  <ol>
  <li> - Ensure diversity of behaviours but play each other.</li>
   <li>- unified behaviours throughout call @Override realistic for polymophism.</li>
-    </ol>
+  </ol>
 </ol>
 <h2>THANKS YOU READ CODE OF ME</h2>
