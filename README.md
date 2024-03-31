@@ -14,7 +14,7 @@
 <ol> 
   <h2>ABSTRACTION </h2>
     <ol>
- <li> - Using a simple things to represent the complex things.<\li>
+ <li>- Using a simple things to represent the complex things.</li>
  <li>- Extract the significant features/characteristic of a complex things to form a simple/easy catching things without losing the orginal meaning of the complex ones .</li>
   <h2>ENCAPSULATION</h2>
     <ol>
