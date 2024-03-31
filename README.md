@@ -13,21 +13,29 @@
 <h1>FOUR PILLARS OF OOP</h1>
 <ol> 
   <li>ABSTRACTION 
-  - Using a simple things to represent the complex things.
-  - Extract the significant features/characteristic of a complex things to form a simple/easy catching things without losing the orginal meaning of the complex ones .
+    <ol>
+ <li> - Using a simple things to represent the complex things.<\li>
+ <li>- Extract the significant features/characteristic of a complex things to form a simple/easy catching things without losing the orginal meaning of the complex ones .</li>
+      <\ol>
   </li>
   <li>ENCAPSULATION
-  - is how to collect variables/data and function in 1 unit object/class.
-  - collect done. Either Use "private" use terms to hide information or  "public/ protected" show .
-  - is only correct do of it specified designed.
+    <ol>
+  <li>- is how to collect variables/data and function in 1 unit object/class.</li>
+ <li> - collect done. Either Use "private" use terms to hide information or  "public/ protected" show .</li>
+ <li> - is only correct do of it specified designed. </li>
+    </ol>
   </li>
   <li>INHERITANCE
-  - Reuse again code don't need code again, even must need copy & paste.
-  - Help acceleration when write code, when codes the best in the past.
+    <ol>
+  <li>- Reuse again code don't need code again, even must need copy & paste.</li>
+  <li>- Help acceleration when write code, when codes the best in the past.</li>
+    </ol>
   </li>
   <li>POLYMORPHISM
-  - Ensure diversity of behaviours but play each other.
-  - unified behaviours throughout call @Override realistic for polymophism.
+    <ol>
+ <li> - Ensure diversity of behaviours but play each other.</li>
+  <li>- unified behaviours throughout call @Override realistic for polymophism.</li>
+    </ol>
   </li>
 </ol>
 <h2>THANKS YOU READ CODE OF ME</h2>
