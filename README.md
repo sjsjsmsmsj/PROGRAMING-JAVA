@@ -13,8 +13,7 @@
 <h1>FOUR PILLARS OF OOP</h1>
 <ol> 
   <h2>ABSTRACTION </h2>
-    <ol>
-      <ol>
+  <ol>
  <li>- Using a simple things to represent the complex things.</li>
  <li>- Extract the significant features/characteristic of a complex things to form a simple/easy catching things without losing the orginal meaning of the complex ones .</li>
         <\ol>
